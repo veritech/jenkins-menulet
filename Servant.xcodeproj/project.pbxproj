@@ -13,6 +13,19 @@
 		AB85CDD81679117300EA3DAD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AB85CDD61679117300EA3DAD /* Credits.rtf */; };
 		AB85CDDB1679117300EA3DAD /* HEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB85CDDA1679117300EA3DAD /* HEAppDelegate.m */; };
 		AB85CDDE1679117300EA3DAD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB85CDDC1679117300EA3DAD /* MainMenu.xib */; };
+		AB85CDE61679165800EA3DAD /* HEStatusMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AB85CDE51679165800EA3DAD /* HEStatusMenuItem.m */; };
+		AB85CDE91679169100EA3DAD /* SettingsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB85CDE81679169100EA3DAD /* SettingsWindow.xib */; };
+		AB85CDEC16792E9D00EA3DAD /* HESettingWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB85CDEB16792E9D00EA3DAD /* HESettingWindowController.m */; };
+		AB85CDF21679441100EA3DAD /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = AB85CDEE1679441100EA3DAD /* error.png */; };
+		AB85CDF31679441100EA3DAD /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = AB85CDEF1679441100EA3DAD /* success.png */; };
+		AB85CDF41679441100EA3DAD /* working_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = AB85CDF01679441100EA3DAD /* working_empty.png */; };
+		AB85CDF51679441100EA3DAD /* working_full.png in Resources */ = {isa = PBXBuildFile; fileRef = AB85CDF11679441100EA3DAD /* working_full.png */; };
+		AB85CDF81679458000EA3DAD /* HEStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB85CDF71679458000EA3DAD /* HEStatusBarView.m */; };
+		AB85CDFA167948FD00EA3DAD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB85CDF9167948FD00EA3DAD /* QuartzCore.framework */; };
+		AB85CDFF16795E0100EA3DAD /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB85CDFB16795E0100EA3DAD /* error@2x.png */; };
+		AB85CE0016795E0100EA3DAD /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB85CDFC16795E0100EA3DAD /* success@2x.png */; };
+		AB85CE0116795E0100EA3DAD /* working_empty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB85CDFD16795E0100EA3DAD /* working_empty@2x.png */; };
+		AB85CE0216795E0100EA3DAD /* working_full@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB85CDFE16795E0100EA3DAD /* working_full@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +42,22 @@
 		AB85CDD91679117300EA3DAD /* HEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HEAppDelegate.h; sourceTree = "<group>"; };
 		AB85CDDA1679117300EA3DAD /* HEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HEAppDelegate.m; sourceTree = "<group>"; };
 		AB85CDDD1679117300EA3DAD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AB85CDE41679165800EA3DAD /* HEStatusMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEStatusMenuItem.h; sourceTree = "<group>"; };
+		AB85CDE51679165800EA3DAD /* HEStatusMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEStatusMenuItem.m; sourceTree = "<group>"; };
+		AB85CDE81679169100EA3DAD /* SettingsWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsWindow.xib; sourceTree = "<group>"; };
+		AB85CDEA16792E9D00EA3DAD /* HESettingWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HESettingWindowController.h; sourceTree = "<group>"; };
+		AB85CDEB16792E9D00EA3DAD /* HESettingWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HESettingWindowController.m; sourceTree = "<group>"; };
+		AB85CDEE1679441100EA3DAD /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		AB85CDEF1679441100EA3DAD /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		AB85CDF01679441100EA3DAD /* working_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = working_empty.png; sourceTree = "<group>"; };
+		AB85CDF11679441100EA3DAD /* working_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = working_full.png; sourceTree = "<group>"; };
+		AB85CDF61679458000EA3DAD /* HEStatusBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEStatusBarView.h; sourceTree = "<group>"; };
+		AB85CDF71679458000EA3DAD /* HEStatusBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEStatusBarView.m; sourceTree = "<group>"; };
+		AB85CDF9167948FD00EA3DAD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AB85CDFB16795E0100EA3DAD /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
+		AB85CDFC16795E0100EA3DAD /* success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success@2x.png"; sourceTree = "<group>"; };
+		AB85CDFD16795E0100EA3DAD /* working_empty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "working_empty@2x.png"; sourceTree = "<group>"; };
+		AB85CDFE16795E0100EA3DAD /* working_full@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "working_full@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB85CDFA167948FD00EA3DAD /* QuartzCore.framework in Frameworks */,
 				AB85CDC81679117300EA3DAD /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +93,7 @@
 		AB85CDC61679117300EA3DAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AB85CDF9167948FD00EA3DAD /* QuartzCore.framework */,
 				AB85CDC71679117300EA3DAD /* Cocoa.framework */,
 				AB85CDC91679117300EA3DAD /* Other Frameworks */,
 			);
@@ -82,6 +113,8 @@
 		AB85CDCD1679117300EA3DAD /* Servant */ = {
 			isa = PBXGroup;
 			children = (
+				AB85CDED1679441100EA3DAD /* Graphics */,
+				AB85CDE71679165F00EA3DAD /* Controllers */,
 				AB85CDD91679117300EA3DAD /* HEAppDelegate.h */,
 				AB85CDDA1679117300EA3DAD /* HEAppDelegate.m */,
 				AB85CDDC1679117300EA3DAD /* MainMenu.xib */,
@@ -101,6 +134,35 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		AB85CDE71679165F00EA3DAD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB85CDE41679165800EA3DAD /* HEStatusMenuItem.h */,
+				AB85CDE51679165800EA3DAD /* HEStatusMenuItem.m */,
+				AB85CDEA16792E9D00EA3DAD /* HESettingWindowController.h */,
+				AB85CDEB16792E9D00EA3DAD /* HESettingWindowController.m */,
+				AB85CDE81679169100EA3DAD /* SettingsWindow.xib */,
+				AB85CDF61679458000EA3DAD /* HEStatusBarView.h */,
+				AB85CDF71679458000EA3DAD /* HEStatusBarView.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AB85CDED1679441100EA3DAD /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				AB85CDFB16795E0100EA3DAD /* error@2x.png */,
+				AB85CDFC16795E0100EA3DAD /* success@2x.png */,
+				AB85CDFD16795E0100EA3DAD /* working_empty@2x.png */,
+				AB85CDFE16795E0100EA3DAD /* working_full@2x.png */,
+				AB85CDEE1679441100EA3DAD /* error.png */,
+				AB85CDEF1679441100EA3DAD /* success.png */,
+				AB85CDF01679441100EA3DAD /* working_empty.png */,
+				AB85CDF11679441100EA3DAD /* working_full.png */,
+			);
+			path = Graphics;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -157,6 +219,15 @@
 				AB85CDD21679117300EA3DAD /* InfoPlist.strings in Resources */,
 				AB85CDD81679117300EA3DAD /* Credits.rtf in Resources */,
 				AB85CDDE1679117300EA3DAD /* MainMenu.xib in Resources */,
+				AB85CDE91679169100EA3DAD /* SettingsWindow.xib in Resources */,
+				AB85CDF21679441100EA3DAD /* error.png in Resources */,
+				AB85CDF31679441100EA3DAD /* success.png in Resources */,
+				AB85CDF41679441100EA3DAD /* working_empty.png in Resources */,
+				AB85CDF51679441100EA3DAD /* working_full.png in Resources */,
+				AB85CDFF16795E0100EA3DAD /* error@2x.png in Resources */,
+				AB85CE0016795E0100EA3DAD /* success@2x.png in Resources */,
+				AB85CE0116795E0100EA3DAD /* working_empty@2x.png in Resources */,
+				AB85CE0216795E0100EA3DAD /* working_full@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +240,9 @@
 			files = (
 				AB85CDD41679117300EA3DAD /* main.m in Sources */,
 				AB85CDDB1679117300EA3DAD /* HEAppDelegate.m in Sources */,
+				AB85CDE61679165800EA3DAD /* HEStatusMenuItem.m in Sources */,
+				AB85CDEC16792E9D00EA3DAD /* HESettingWindowController.m in Sources */,
+				AB85CDF81679458000EA3DAD /* HEStatusBarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

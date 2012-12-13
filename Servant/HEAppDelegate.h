@@ -7,9 +7,17 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "HEStatusMenuItem.h"
 
 @interface HEAppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property (nonatomic,weak) IBOutlet NSMenu *menu;
+@property (weak) IBOutlet  HEStatusMenuItem *statusMenuItem;
+
+- (IBAction)showSettings:(id)sender;
+
+- (IBAction)update:(id)sender;
+
+- (IBAction)exitApplication:(id)sender;
 
 @end
