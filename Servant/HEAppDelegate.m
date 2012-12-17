@@ -125,6 +125,7 @@
   
   id obj;
   NSError *error = nil;
+  NSString *resultString;
   
   if (!(obj = [NSJSONSerialization JSONObjectWithData:aData options:NSJSONReadingAllowFragments error:&error])) {
     NSLog(@"JSON Error %@",error);
@@ -132,10 +133,14 @@
   }
   
   //[self showNotification:obj];
+  resultString = [obj valueForKeyPath:@"result"];
   
-  //NSLog(@"Response %@",obj);
+  if ([resultString isKindOfClass:[NSNull class]]) {
+    NSLog(@"Bad JSON %@",obj);
+    return;
+  }
   
-  if ([[[obj valueForKeyPath:@"result"] lowercaseString] isEqualToString:@"success"]) {
+  if ([[resultString lowercaseString] isEqualToString:@"success"]) {
     [(HEStatusBarView *)[[self menuBarItem] view] setState:HEStatusBarViewStateSuccess];
   }
   else {

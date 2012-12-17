@@ -59,9 +59,29 @@
 							<string key="NSResourceName">NSMenuMixedState</string>
 						</object>
 					</object>
+					<object class="NSMenuItem" id="189650746">
+						<reference key="NSMenu" ref="247594774"/>
+						<bool key="NSIsDisabled">YES</bool>
+						<bool key="NSIsSeparator">YES</bool>
+						<string key="NSTitle"/>
+						<string key="NSKeyEquiv"/>
+						<int key="NSMnemonicLoc">2147483647</int>
+						<reference key="NSOnImage" ref="57551038"/>
+						<reference key="NSMixedImage" ref="940857687"/>
+					</object>
 					<object class="NSMenuItem" id="310328104">
 						<reference key="NSMenu" ref="247594774"/>
 						<string key="NSTitle">Settings</string>
+						<string key="NSKeyEquiv"/>
+						<int key="NSMnemonicLoc">2147483647</int>
+						<reference key="NSOnImage" ref="57551038"/>
+						<reference key="NSMixedImage" ref="940857687"/>
+					</object>
+					<object class="NSMenuItem" id="128302556">
+						<reference key="NSMenu" ref="247594774"/>
+						<bool key="NSIsDisabled">YES</bool>
+						<bool key="NSIsSeparator">YES</bool>
+						<string key="NSTitle"/>
 						<string key="NSKeyEquiv"/>
 						<int key="NSMnemonicLoc">2147483647</int>
 						<reference key="NSOnImage" ref="57551038"/>
@@ -84,10 +104,9 @@
 					<object class="NSTextField" id="549382324">
 						<reference key="NSNextResponder" ref="379446182"/>
 						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{17, 11}, {166, 17}}</string>
+						<string key="NSFrame">{{17, 9}, {166, 18}}</string>
 						<reference key="NSSuperview" ref="379446182"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:1535</string>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSTextFieldCell" key="NSCell" id="434027213">
@@ -110,13 +129,13 @@
 									<bytes key="NSWhite">MC42NjY2NjY2NjY3AA</bytes>
 								</object>
 							</object>
-							<object class="NSColor" key="NSTextColor" id="37831488">
+							<object class="NSColor" key="NSTextColor" id="982969190">
 								<int key="NSColorSpace">6</int>
 								<string key="NSCatalogName">System</string>
-								<string key="NSColorName">textColor</string>
-								<object class="NSColor" key="NSColor" id="334286812">
+								<string key="NSColorName">disabledControlTextColor</string>
+								<object class="NSColor" key="NSColor">
 									<int key="NSColorSpace">3</int>
-									<bytes key="NSWhite">MAA</bytes>
+									<bytes key="NSWhite">MC4zMzMzMzMzMzMzAA</bytes>
 								</object>
 							</object>
 						</object>
@@ -125,7 +144,7 @@
 					<object class="NSTextField" id="666376815">
 						<reference key="NSNextResponder" ref="379446182"/>
 						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{17, 36}, {166, 17}}</string>
+						<string key="NSFrame">{{17, 35}, {166, 18}}</string>
 						<reference key="NSSuperview" ref="379446182"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="549382324"/>
@@ -139,7 +158,7 @@
 							<string key="NSCellIdentifier">_NS:1535</string>
 							<reference key="NSControlView" ref="666376815"/>
 							<reference key="NSBackgroundColor" ref="1033419862"/>
-							<reference key="NSTextColor" ref="37831488"/>
+							<reference key="NSTextColor" ref="982969190"/>
 						</object>
 						<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 					</object>
@@ -152,10 +171,9 @@
 				<string key="NSClassName">NSView</string>
 			</object>
 			<object class="NSTextField" id="966257455">
-				<reference key="NSNextResponder"/>
+				<nil key="NSNextResponder"/>
 				<int key="NSvFlags">268</int>
 				<string key="NSFrameSize">{38, 17}</string>
-				<reference key="NSSuperview"/>
 				<string key="NSReuseIdentifierKey">_NS:1535</string>
 				<bool key="NSEnabled">YES</bool>
 				<object class="NSTextFieldCell" key="NSCell" id="580134786">
@@ -174,7 +192,10 @@
 						<int key="NSColorSpace">6</int>
 						<string key="NSCatalogName">System</string>
 						<string key="NSColorName">controlTextColor</string>
-						<reference key="NSColor" ref="334286812"/>
+						<object class="NSColor" key="NSColor">
+							<int key="NSColorSpace">3</int>
+							<bytes key="NSWhite">MAA</bytes>
+						</object>
 					</object>
 				</object>
 				<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
@@ -290,6 +311,8 @@
 							<reference ref="394764219"/>
 							<reference ref="310328104"/>
 							<reference ref="338978803"/>
+							<reference ref="128302556"/>
+							<reference ref="189650746"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -482,6 +505,16 @@
 						<reference key="object" ref="612328863"/>
 						<reference key="parent" ref="379446182"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">659</int>
+						<reference key="object" ref="128302556"/>
+						<reference key="parent" ref="247594774"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">660</int>
+						<reference key="object" ref="189650746"/>
+						<reference key="parent" ref="247594774"/>
+					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -518,12 +551,14 @@
 				<string key="655.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="656.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="658.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="659.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="660.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 			</dictionary>
 			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">658</int>
+			<int key="maxID">660</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">

@@ -114,8 +114,6 @@
 
 #pragma Events
 - (void)mouseDown:(NSEvent *)theEvent {
-  NSLog(@"CLICKED!!!!!! %@",[self statusBarItem]);
-  
   [[self statusBarItem] popUpStatusItemMenu:[[self statusBarItem] menu]];
 }
 
